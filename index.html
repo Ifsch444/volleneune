@@ -4,61 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volle Neune</title>
-
     <link rel="stylesheet" href="style.css">
 
-    <style>
-
-    body{
-        margin: 0;
-    }
-    .header-image{ /* Definition des Bildes */
-        height:100%
-        witdth: 100%;
-        object-fit: cover;
-        filter: brightness(0,5)
-    }
-
-    .menu{ /* Definition des Navigationsmensü */
-        position: absolute;
-        right: 100px; /* Abstand nach rechts */
-        top: 30px; /* Abstand nach oben */
-        font-size: 20px; /* Schriftgröße */
-        display: flex; /* Unbekannt */
-        align-items: center; /* Unbekannt */
-    }
-
-    .menu-link { /*Links */
-        color: rgb(0, 0, 0); /* Schriftfarbe der Links*/
-        text-decoration: none; /*Links haben keine Unterstriche */
-        margin-left: 20px; /*Platz zwischen den Links */
-    }
-
-    .menu-link:hover{ /*Links (beim drüberfahren) */
-        text-decoration: overline; /* Beim Hovern bekommt der angewähle Link einen Unterstrich  (underline)*/    
-    }
-
-    .menu-link:active{
-        color: rgb(60, 65, 60);
-    }
-
-    .headline{
-        position: absolute;
-        left: 50px;
-        top: 300px;
-        color: Tomato;
-        font-size: 70px;
-        width: 500px;
-        text-shadow: 10px 10px 5px rgba(0,0,0, 0.8);
-    }
-
-    .accent{
-        color: rgb(152, 152, 72);
-    }
-
-
-
-    </style>
 </head>
 
 <body>
@@ -66,14 +13,14 @@
     <img class ="header-image" src="img/Home.jpg">
 
     <div class="menu"> 
+        <a class="menu-link" href="index.html"> Home </a>
         <a class="menu-link" href="termine.html"> Termine </a>
         <a class="menu-link" href="ergebnisse.html"> Ergebnisse </a>
         <a class="menu-link" href="regelwerk.html"> Regelwerk </a>
-        <br>
-        <p>Update 21:37</p>
     </div>
     
     <h1 class="headline">Der <span class="accent">beste Kegelclub</span> der Stadt</h1>
+    
     
 </body>
 </html>
